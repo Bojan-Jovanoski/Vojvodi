@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VojvodiWebApp", "VojvodiWebApp\VojvodiWebApp.csproj", "{6F5B97F8-97E2-4B5B-ACEC-41AC0D8AB983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{B9A965E5-ED7F-49EA-910F-24E200385E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5B97F8-97E2-4B5B-ACEC-41AC0D8AB983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5B97F8-97E2-4B5B-ACEC-41AC0D8AB983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5B97F8-97E2-4B5B-ACEC-41AC0D8AB983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5B97F8-97E2-4B5B-ACEC-41AC0D8AB983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A965E5-ED7F-49EA-910F-24E200385E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A965E5-ED7F-49EA-910F-24E200385E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A965E5-ED7F-49EA-910F-24E200385E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A965E5-ED7F-49EA-910F-24E200385E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC4EFAF3-546C-435C-A18B-BFE18EB27232}
+	EndGlobalSection
+EndGlobal

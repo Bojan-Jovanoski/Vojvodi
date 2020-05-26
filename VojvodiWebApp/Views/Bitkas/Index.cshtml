@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Models.Bitka>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Lokacija)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Datum)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lokacija)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Datum)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BitkaId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BitkaId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BitkaId })
+        </td>
+    </tr>
+}
+
+</table>
